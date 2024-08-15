@@ -13,10 +13,9 @@ const Login = () => {
   };
 
   return (
-    <div className="w-screen h-screen items-center justify-center overflow-x-hidden">   
-    <Navbar />
-    <div className="w-[100%] h-screen flex flex-col items-center justify-center overflow-hidden">
-      <div className="flex-grow flex flex-col items-center justify-center">
+    <div className="flex flex-col min-h-screen bg-black">
+      <Navbar />
+      <main className="flex flex-col flex-grow items-center justify-center">
         <div className="w-[460px] h-[312px] rounded-2xl border-[1px] border-[#343A40] px-[24px] py-[40px] flex flex-col items-center justify-around">
           <h1 className="text-[#FFFFFF] text-[20px] font-medium text-center">
             Create a new account
@@ -40,9 +39,8 @@ const Login = () => {
             </p>
           </div>
         </div>
-      </div>
-    </div>
-    <Footer/>
+      </main>
+      <Footer />
     </div>
   );
 };
