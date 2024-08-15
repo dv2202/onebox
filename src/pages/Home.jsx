@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { MdRefresh } from "react-icons/md";
 import { FaAngleDown } from "react-icons/fa";
 import logomail from "../assets/Logo_holder.svg";
-import home from "../assets/home.svg";
+import home from "../assets/Home.svg";
 import search from "../assets/Vector.svg";
 import mail from "../assets/email.svg";
 import send from "../assets/Frame 23.svg";
